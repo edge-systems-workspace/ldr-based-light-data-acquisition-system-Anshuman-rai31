@@ -5,7 +5,7 @@ void setup() {
     pinMode (ldrpin, INPUT);
 }
 
-/*void loop() {
+void loop() {
     int ldrValue = analogRead(ldrpin);
     int lightPercent = map(ldrValue,0,1023,0,100);
     Serial.print("ldrValue:");
@@ -13,4 +13,4 @@ void setup() {
     Serial.print("  lightPercent:");
     Serial.println(lightPercent);
     delay(300);
-}*/
+}
